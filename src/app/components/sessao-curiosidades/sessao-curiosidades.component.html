@@ -1,0 +1,78 @@
+<section class="md:p-20 lg:w-8/12 lg:m-auto lg:p-0">
+  <div class="lg:hidden">
+    <div *ngFor="let curiosidade of curiosidadesIntercaladas; let i = index" [ngClass]="{
+      'bg-teal-600/20 text-left': i % 2 == 0,
+      'bg-teal-950 text-right justify-items-end': i % 2 !== 0
+    }" class=" p-4 space-y-2">
+      <div [ngClass]="{
+        'bg-teal-600/20': i % 2 == 0,
+        'bg-white transform scale-x-[-1]': i % 2 !== 0
+      }"
+        class="bg-teal-600/20 rounded-lg w-16 h-16 flex items-center justify-center transform transition duration-300 hover:scale-110">
+        <img class=" m-3" [src]="curiosidade.imagem" alt="">
+      </div>
+      <div>
+        <h3 [ngClass]="{
+          'text-teal-950': i % 2 == 0,
+          'text-teal-600': i % 2 !== 0
+        }" class="text-teal-950 font-semibold"> {{ curiosidade.titulo }} </h3>
+      </div>
+      <div>
+        <h4 [ngClass]="{
+          ' text-neutral-900': i % 2 == 0,
+          'text-white font-normal': i % 2 !== 0
+        }" class="font-normal">
+          {{ curiosidade.descricao }}
+        </h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-cols-2 rounded-3xl relative mb-24 hidden lg:grid">
+    <!-- Coluna Esquerda -->
+    <div class="flex flex-col">
+      <div *ngFor="let curiosidade of curiosidadesLeft; let i = index"
+        class="bg-teal-600/20 p-4 pr-36 flex flex-col justify-between min-h-[200px]">
+        <div>
+          <div class="flex flex-row items-center">
+            <div
+              class="bg-teal-600/20 rounded-lg w-16 h-16 flex items-center justify-center transform transition duration-300 hover:scale-110">
+              <img class="m-3" [src]="curiosidade.imagem" alt="">
+            </div>
+            <h3 class="text-teal-950 font-semibold text-2xl ml-5"> {{ curiosidade.titulo }} </h3>
+          </div>
+          <div>
+            <h4 class="font-normal">
+              {{ curiosidade.descricao }}
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coluna Direita -->
+    <div class="flex flex-col">
+      <div *ngFor="let curiosidade of curiosidadesRight; let i = index"
+        class="bg-teal-600/20 p-4 pl-36 flex flex-col justify-between min-h-[200px]">
+        <div>
+          <div class="flex flex-row items-center">
+            <div
+              class="bg-teal-600/20 rounded-lg w-16 h-16 flex items-center justify-center transform transition duration-300 hover:scale-110">
+              <img class="m-3" [src]="curiosidade.imagem" alt="">
+            </div>
+            <h3 class="text-teal-950 font-semibold text-2xl ml-5"> {{ curiosidade.titulo }} </h3>
+          </div>
+          <div>
+            <h4 class="font-normal">
+              {{ curiosidade.descricao }}
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-full" src="assets/images/Foto_Pedro2.png"
+      alt="">
+  </div>
+
+
+</section>
