@@ -24,6 +24,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/psicuidar/",
               "budgets": [
                 {
                   "type": "initial",
