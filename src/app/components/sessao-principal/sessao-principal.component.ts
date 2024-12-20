@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Collapse, Ripple, initTWE } from 'tw-elements';
+import { Collapse, Ripple, initTWE, Button } from 'tw-elements';
 
 @Component({
   selector: 'app-sessao-principal',
@@ -10,6 +10,6 @@ import { Collapse, Ripple, initTWE } from 'tw-elements';
 })
 export class SessaoPrincipalComponent {
   ngOnInit() {
-    initTWE({ Collapse, Ripple });
+    initTWE({ Collapse, Ripple, Button });
   }
 }

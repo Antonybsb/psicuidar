@@ -10,5 +10,15 @@ module.exports = {
     },
   },
   darkMode: "class",
-  plugins: [require("tw-elements/plugin.cjs")],
+  plugins: [
+    require("tw-elements/plugin.cjs"),
+    function ({ addBase }) {
+      addBase({
+        "html, body": {
+          overflowX: "hidden",
+          width: "100%",
+        },
+      });
+    },
+  ],
 };
