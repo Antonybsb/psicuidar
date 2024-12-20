@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "deploy": "npx angular-cli-ghpages --dir=dist/psicuidar"
+    "build": "ng build --configuration=production --base-href=/psicuidar/",
+    "ghpages": "angular-cli-ghpages --dir=dist/psicuidar",
+    "deploy": "npm run build && npm run ghpages",
+    "watch": "ng build --watch --configuration=development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
