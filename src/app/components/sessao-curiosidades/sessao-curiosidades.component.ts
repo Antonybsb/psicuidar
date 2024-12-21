@@ -24,17 +24,17 @@ export class SessaoCuriosidadesComponent {
 
   curiosidadesLeft: Curiosidade[] = [
     {
-      imagem: 'assets/svg/icon-why-us-5.svg.svg',
+      imagem: 'assets/svg/undraw_approve_jz6b.svg',
       titulo: 'Desenvolvimento Humano',
       descricao: 'Estuda o crescimento e as mudanças ao longo da vida, incluindo aspectos físicos, cognitivos, sociais e emocionais desde a infância até a velhice.'
     },
     {
-      imagem: 'assets/svg/icon-why-us-5.svg.svg',
+      imagem: 'assets/svg/undraw_approve_jz6b.svg',
       titulo: 'Saúde Mental',
       descricao: 'Foca em transtornos mentais, como depressão, ansiedade, bipolaridade e esquizofrenia, bem como suas causas, diagnósticos e tratamentos.'
     },
     {
-      imagem: 'assets/svg/icon-why-us-5.svg.svg',
+      imagem: 'assets/svg/undraw_approve_jz6b.svg',
       titulo: 'Psicologia Cognitiva',
       descricao: 'Investiga processos mentais como percepção, memória, aprendizado, resolução de problemas e tomada de decisão.'
     }
@@ -42,17 +42,17 @@ export class SessaoCuriosidadesComponent {
 
   curiosidadesRight: Curiosidade[] = [
     {
-      imagem: 'assets/svg/icon-why-us-5.svg.svg',
+      imagem: 'assets/svg/undraw_approve_jz6b.svg',
       titulo: 'Psicologia Social',
       descricao: 'Estuda como o comportamento, pensamentos e sentimentos das pessoas são influenciados pelos outros.'
     },
     {
-      imagem: 'assets/svg/icon-why-us-5.svg.svg',
+      imagem: 'assets/svg/undraw_approve_jz6b.svg',
       titulo: 'Psicologia da Personalidade',
       descricao: 'Explora padrões únicos de pensamentos, sentimentos e comportamentos que definem cada pessoa.'
     },
     {
-      imagem: 'assets/svg/icon-why-us-5.svg.svg',
+      imagem: 'assets/svg/undraw_approve_jz6b.svg',
       titulo: 'Neuropsicologia',
       descricao: 'Examina a relação entre o cérebro e o comportamento, focando em como lesões ou doenças cerebrais que afetam a cognição e o comportamento.'
     }

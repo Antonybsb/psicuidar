@@ -18,37 +18,37 @@ export class SessaoServicosComponent {
 
   servicos: Servico[] = [
     {
-      imagem: 'assets/svg/icon-service-2.svg.svg',
+      imagem: 'assets/svg/undraw_family_6gj8.svg',
       titulo: 'Psicoterapia de casais e famílias',
       descricao: 'Ambiente seguro para casais e famílias melhorarem a comunicação e resolverem conflitos, fortalecendo seus laços e construindo relacionamentos mais saudáveis.'
     },
     {
-      imagem: 'assets/svg/icon-service-2.svg.svg',
+      imagem: 'assets/svg/undraw_fatherhood_eldm.svg',
       titulo: 'Psicolologia familiar sistêmica',
       descricao: 'A psicologia familiar sistêmica analisa as dinâmicas familiares e como os comportamentos afetam o bem-estar dos membros. O foco é promover a comunicação e resolver conflitos para fortalecer os laços familiares.'
     },
     {
-      imagem: 'assets/svg/icon-service-2.svg.svg',
+      imagem: 'assets/svg/undraw_confirmed_f581.svg',
       titulo: 'Emergência Psicológica',
       descricao: 'A emergência psicológica envolve intervenções imediatas em crises, como desastres e traumas, oferecendo suporte emocional para ajudar as pessoas a lidarem com estresse e ansiedade, promovendo a recuperação.'
     },
     {
-      imagem: 'assets/svg/icon-service-2.svg.svg',
+      imagem: 'assets/svg/undraw_traveling_6zeh.svg',
       titulo: 'Psicologia do Trânsito',
       descricao: 'A psicologia do trânsito estuda comportamentos de motoristas e pedestres, visando a segurança viária. O trabalho inclui prevenção de acidentes e campanhas educativas para um trânsito mais seguro.'
     },
     {
-      imagem: 'assets/svg/icon-service-2.svg.svg',
+      imagem: 'assets/svg/undraw_breakfast_rgx5.svg',
       titulo: 'Transtornos Alimentares',
       descricao: 'Transtornos alimentares afetam a relação com a comida e a imagem corporal. A psicologia é essencial no tratamento, abordando questões emocionais e promovendo a recuperação e a saúde mental.'
     },
     {
-      imagem: 'assets/svg/icon-service-2.svg.svg',
+      imagem: 'assets/svg/undraw_doctor_aum1.svg',
       titulo: 'Obesidade e Cirurgia Bariátrica',
       descricao: 'A obesidade pode ser tratada com cirurgia bariátrica em casos severos. A psicologia ajuda os pacientes a entenderem suas motivações e a lidarem com mudanças de estilo de vida, mantendo a saúde mental após a cirurgia.'
     },
     {
-      imagem: 'assets/svg/icon-cta.svg.svg',
+      imagem: 'assets/svg/undraw_schedule_6t8k.svg',
       titulo: 'Pronto para começar sua jornada de evolução?',
       descricao: 'Sua vida emocional merece cuidado e o momento de agir é agora, pois crises e lesões emocionais nem sempre avisam quando vão chegar. De repente, aquele desafio que parecia administrável torna-se um fardo pesado demais para carregar sozinho. É nesses momentos que o apoio especializado faz toda a diferença. Na minha prática de psicologia de emergência, ofereço intervenções rápidas e eficazes para situações de estresse intenso, traumas ou mudanças inesperadas. Meu objetivo é guiá-lo na compreensão das suas emoções, no desenvolvimento de estratégias que realmente funcionam e no fortalecimento da sua resiliência para que você volte a se sentir no controle da sua vida. Você não precisa enfrentar tudo isso sozinho.Transformar sua vida emocional começa com um único passo: decidir que você merece atenção, cuidado e uma nova perspectiva.Vamos juntos reescrever essa história? Seu momento de mudança pode começar hoje.'
     }

@@ -9,7 +9,7 @@
         class="border-2 border-teal-600 hover:bg-teal-600/25 p-3 rounded-lg space-y-2  lg:max-w-full">
         <div
           class="bg-teal-600/20 rounded-lg w-16 h-16 flex items-center justify-center overflow-hidden transform transition duration-300 hover:scale-110">
-          <img class="m-3" [src]="servico.imagem" alt="">
+          <img class="m-3 p-2" [src]="servico.imagem" alt="">
         </div>
         <div>
           <h3 class="text-teal-950 font-semibold"> {{ servico.titulo }} </h3>
@@ -21,11 +21,10 @@
         </div>
         <div *ngIf="i === servicos.length - 1" class="flex justify-center">
           <a class="mb-1 mt-6 inline-block rounded border-2 border-teal-600 bg-teal-600 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-300 hover:text-neutral-200 focus:border-neutral-300 focus:text-neutral-200 focus:outline-none focus:ring-0 active:border-neutral-300 active:text-neutral-200 dark:hover:bg-neutral-600 dark:focus:bg-neutral-600"
-            href="#!" role="button" data-twe-ripple-init data-twe-ripple-color="light">Marque uma consulta</a>
+            href="https://wa.me/5562996384141" target="_blank" role="button" data-twe-ripple-init
+            data-twe-ripple-color="light">Marque uma consulta</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-<!-- Aplique a classe lg:col-span-2 se o número total de serviços é ímpar e se o índice do item atual é o último índice do array. Linha 8 -->
