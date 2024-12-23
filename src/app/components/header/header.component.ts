@@ -12,4 +12,13 @@ export class HeaderComponent {
   ngOnInit() {
     initTWE({ Collapse, Dropdown });
   }
+
+  scrollToSection(baseId: string): void {
+    const targetId =
+      window.innerWidth >= 1024 ? `${baseId}-lg` : `${baseId}-mobile`;
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }
