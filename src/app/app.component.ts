@@ -10,11 +10,12 @@ import { SessaoHorarioFuncionamentoComponent } from "./components/sessao-horario
 import { SessaoSobreComponent } from "./components/sessao-sobre/sessao-sobre.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { SessaoSobreLgComponent } from "./components/sessao-sobre-lg/sessao-sobre-lg.component";
+import { SessaoArtigosUltimasPostagensComponent } from "./components/sessao-artigos-ultimas-postagens/sessao-artigos-ultimas-postagens.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, SessaoPrincipalComponent, TerapeutaEspecialistaComponent, TerapeutaEspecialistaComponent, SessaoServicosComponent, SessaoCuriosidadesComponent, SessaoApoioEmocionalComponent, SessaoHorarioFuncionamentoComponent, SessaoSobreComponent, FooterComponent, SessaoSobreLgComponent],
+  imports: [HeaderComponent, SessaoPrincipalComponent, TerapeutaEspecialistaComponent, TerapeutaEspecialistaComponent, SessaoServicosComponent, SessaoCuriosidadesComponent, SessaoApoioEmocionalComponent, SessaoHorarioFuncionamentoComponent, SessaoSobreComponent, FooterComponent, SessaoSobreLgComponent, SessaoArtigosUltimasPostagensComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
