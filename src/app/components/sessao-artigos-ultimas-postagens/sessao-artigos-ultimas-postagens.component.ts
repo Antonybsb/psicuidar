@@ -40,6 +40,6 @@ export class SessaoArtigosUltimasPostagensComponent {
 
   formatDate(date: Date): string {
     const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-    return `Postado em ${date.toLocaleDateString('pt-BR', options)}`
+    return `Publicado em ${date.toLocaleDateString('pt-BR', options)}`
   }
 }
