@@ -1,8 +1,8 @@
 <section class="md:p-20 lg:w-8/12 lg:m-auto">
+  <h2 class="mb-4 text-4xl font-semibold text-teal-950 animate__animated animate__fadeIn">
+    Estou aqui para oferecer o melhor<span class="text-teal-600"> apoio em cada situação.</span>
+  </h2>
   <div class="m-4 space-y-4 justify-items-center">
-    <h2 class="mb-4 text-4xl font-semibold text-teal-950 animate__animated animate__fadeIn">
-      Estou aqui para oferecer o melhor<span class="text-teal-600"> apoio em cada situação.</span>
-    </h2>
     <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
       <div *ngFor="let servico of servicos; let i = index"
         [ngClass]="{ 'lg:col-span-2': servicos.length % 2 !== 0 && i === servicos.length - 1 }"
