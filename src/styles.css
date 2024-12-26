@@ -10,6 +10,9 @@
   html.dark {
     @apply text-neutral-50 bg-body-dark;
   }
+  .paragrafo {
+    margin-left: 20px;
+  }
 }
 
 @tailwind components;

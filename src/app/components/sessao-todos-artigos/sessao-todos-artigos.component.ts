@@ -36,6 +36,24 @@ export class SessaoTodosArtigosComponent {
       descricaoArtigo: 'Um mergulho no choque de valores e perspectivas entre gerações, discutindo como a empatia e o respeito mútuo podem minimizar essas tensões.',
       dataPostagem: new Date()
     },
+    {
+      imgArtigo: 'assets/images/artigos/money-2724241_1280.jpg',
+      tituloArtigo: 'Finanças em Família: Como Evitar que o Dinheiro Seja Fonte de Conflitos',
+      descricaoArtigo: 'Dinheiro é uma das principais causas de brigas familiares. Este artigo poderia discutir como o planejamento financeiro, a transparência e o diálogo sobre dinheiro ajudam a evitar tensões.',
+      dataPostagem: new Date()
+    },
+    {
+      imgArtigo: 'assets/images/artigos/irmaos.jpg',
+      tituloArtigo: 'Como Lidar com Conflitos Entre Irmãos e Promover Relações Saudáveis',
+      descricaoArtigo: 'Uma análise das causas de brigas entre irmãos (ciúmes, competição por atenção, diferenças de personalidade) e estratégias para construir um relacionamento mais harmonioso entre eles.',
+      dataPostagem: new Date()
+    },
+    {
+      imgArtigo: 'assets/images/artigos/happiness-4279432_1280.jpg',
+      tituloArtigo: 'A Importância do Perdão nas Relações Familiares',
+      descricaoArtigo: 'Este artigo pode explorar como o perdão funciona como uma ferramenta poderosa para superar mágoas e reconstruir laços familiares, destacando passos práticos para cultivá-lo.',
+      dataPostagem: new Date()
+    },
   ]
 
   formatDate(date: Date): string {
