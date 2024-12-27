@@ -6,6 +6,7 @@ export interface ArtigosUnitarios {
   id: number;
   img: string;
   title: string;
+  subTitle: string;
   content: string;
 }
 

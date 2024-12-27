@@ -1,11 +1,11 @@
-<section class="flex m-auto justify-center max-w-5xl mt-32" *ngIf="artigo">
+<section class="flex m-auto justify-center max-w-5xl " *ngIf="artigo">
   <div class="block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark dark:text-white text-surface">
-    <div class="relative overflow-hidden bg-cover bg-no-repeat h-80">
-      <img class="rounded-t-lg object-cover object-bottom" [src]="artigo.img" alt="{{ artigo.title }}" />
+    <div class="overflow-hidden bg-no-repeat h-auto ">
+      <img class="rounded-t-lg object-cover object-center" [src]="artigo.img" alt="{{ artigo.title }}" />
     </div>
     <!-- Background -->
-    <div class="flex justify-center">
-      <div class="max-w-3xl">
+    <div class="flex justify-center relative -mt-72 z-10">
+      <div class="max-w-full">
         <div class="m-4 block rounded-lg bg-white p-6 shadow-lg dark:bg-neutral-800 dark:shadow-black/20">
           <h1 class="mb-9 text-4xl font-extrabold leading-tight text-teal-800">
             {{ artigo.title }}
@@ -37,7 +37,7 @@
           <rect width="100%" height="100%" fill="#0d9488" />
         </svg>
         <h5 class="mb-2 text-3xl font-medium leading-tight">
-          {{ artigo.title }}
+          {{ artigo.subTitle }}
         </h5>
       </div>
       <div class="mb-4 mt-4 text-base" [innerHTML]="artigo.content"></div>
