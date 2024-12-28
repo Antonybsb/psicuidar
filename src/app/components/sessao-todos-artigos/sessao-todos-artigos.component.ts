@@ -23,15 +23,15 @@ export class SessaoTodosArtigosComponent {
     {
       id: 1,
       imgArtigo: 'assets/images/artigos/man-5154900_1280.jpg',
-      tituloArtigo: 'A Arte de Dialogar: Como a Comunicação Pode Transformar Relações Familiares',
+      tituloArtigo: 'A Arte de Dialogar: Como a Comunicação Pode Transformar Relações Familiares 2',
       descricaoArtigo: 'Este artigo pode abordar como a comunicação clara, empática e aberta é essencial para prevenir e resolver conflitos familiares. Inclui dicas práticas, como evitar julgamentos, validar emoções e criar um ambiente seguro para conversas difíceis.',
       dataPostagem: new Date()
     },
     {
       id: 2,
-      imgArtigo: 'assets/images/artigos/indian-1283789_1280.jpg',
-      tituloArtigo: 'Impactos dos Conflitos Familiares na Saúde Mental das Crianças e Adolescentes',
-      descricaoArtigo: 'Explorar como os desentendimentos dentro de casa afetam o desenvolvimento emocional e psicológico dos mais jovens, com sugestões de como proteger e fortalecer a saúde mental deles.',
+      imgArtigo: 'assets/images/artigos/pills-3114364_1280.jpg',
+      tituloArtigo: 'Trastornos Alimentares',
+      descricaoArtigo: 'Compreendendo os Transtornos Alimentares: Diferenças entre Anorexia, Bulimia e Transtorno de Compulsão Alimentar',
       dataPostagem: new Date()
     },
     {

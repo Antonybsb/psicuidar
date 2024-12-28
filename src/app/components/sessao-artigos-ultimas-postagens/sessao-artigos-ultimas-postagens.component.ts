@@ -1,7 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 interface Artigos {
+  id: number;
   imgArtigo: string;
   tituloArtigo: string;
   descricaoArtigo: string;
@@ -11,7 +13,7 @@ interface Artigos {
 @Component({
   selector: 'app-sessao-artigos-ultimas-postagens',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './sessao-artigos-ultimas-postagens.component.html',
   styleUrl: './sessao-artigos-ultimas-postagens.component.css'
 })
@@ -19,18 +21,21 @@ export class SessaoArtigosUltimasPostagensComponent {
 
   artigosUltimosPosts: Artigos[] = [
     {
+      id: 1,
       imgArtigo: 'assets/images/artigos/man-5154900_1280.jpg',
       tituloArtigo: 'A Arte de Dialogar: Como a Comunicação Pode Transformar Relações Familiares',
       descricaoArtigo: 'Este artigo pode abordar como a comunicação clara, empática e aberta é essencial para prevenir e resolver conflitos familiares. Inclui dicas práticas, como evitar julgamentos, validar emoções e criar um ambiente seguro para conversas difíceis.',
       dataPostagem: new Date()
     },
     {
-      imgArtigo: 'assets/images/artigos/indian-1283789_1280.jpg',
-      tituloArtigo: 'Impactos dos Conflitos Familiares na Saúde Mental das Crianças e Adolescentes',
-      descricaoArtigo: 'Explorar como os desentendimentos dentro de casa afetam o desenvolvimento emocional e psicológico dos mais jovens, com sugestões de como proteger e fortalecer a saúde mental deles.',
+      id: 2,
+      imgArtigo: 'assets/images/artigos/pills-3114364_1280.jpg',
+      tituloArtigo: 'Transtornos Alimentares',
+      descricaoArtigo: 'Compreendendo os Transtornos Alimentares: Diferenças entre Anorexia, Bulimia e Transtorno de Compulsão Alimentar',
       dataPostagem: new Date()
     },
     {
+      id: 3,
       imgArtigo: 'assets/images/artigos/family-6886803_1280.jpg',
       tituloArtigo: 'Conflitos de Geração: Como Construir Pontes Entre Pais e Filhos',
       descricaoArtigo: 'Um mergulho no choque de valores e perspectivas entre gerações, discutindo como a empatia e o respeito mútuo podem minimizar essas tensões.',
