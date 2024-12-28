@@ -43,9 +43,9 @@ export class SessaoTodosArtigosComponent {
     },
     {
       id: 4,
-      imgArtigo: 'assets/images/artigos/money-2724241_1280.jpg',
-      tituloArtigo: 'Finanças em Família: Como Evitar que o Dinheiro Seja Fonte de Conflitos',
-      descricaoArtigo: 'Dinheiro é uma das principais causas de brigas familiares. Este artigo poderia discutir como o planejamento financeiro, a transparência e o diálogo sobre dinheiro ajudam a evitar tensões.',
+      imgArtigo: 'assets/images/artigos/adult-1869397_1280.jpg',
+      tituloArtigo: 'Medo de Dirigir (Amaxofobia)',
+      descricaoArtigo: 'A Psicologia do Trânsito desempenha um papel fundamental na promoção da segurança e do bem-estar dos motoristas. Além de tratar questões como amaxofobia, ela também aborda comportamentos agressivos, distrações ao volante e outros fatores que impactam o trânsito.',
       dataPostagem: new Date()
     },
     {
