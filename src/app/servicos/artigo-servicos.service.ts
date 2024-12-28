@@ -7,6 +7,9 @@ export interface ArtigosUnitarios {
   img: string;
   title: string;
   subTitle: string;
+  autor: string;
+  dataCriacao: string;
+  dataAtualizacao: string;
   content: string;
 }
 

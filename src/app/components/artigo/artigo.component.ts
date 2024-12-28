@@ -7,6 +7,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @Component({
   selector: 'app-artigo',
   standalone: true,
