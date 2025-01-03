@@ -38,7 +38,7 @@ export class SessaoTodosArtigosComponent {
       id: 3,
       imgArtigo: 'assets/images/artigos/belly-2354_1280.jpg',
       tituloArtigo: 'Cirurgia Bariátrica e Saúde Mental: Antes, Durante e Depois',
-      descricaoArtigo: 'A cirurgia bariátrica é uma das intervenções mais eficazes para tratar a obesidade severa e suas comorbidades, como diabetes tipo 2, hipertensão e doenças cardiovasculares. No entanto, seus impactos vão além do corpo, envolvendo transformações psicológicas significativas que precisam ser compreendidas e manejadas adequadamente. A saúde mental desempenha um papel essencial em todas as etapas do processo – desde a preparação pré-operatória até o acompanhamento pós-cirúrgico.',
+      descricaoArtigo: 'A cirurgia bariátrica é uma das intervenções mais eficazes para tratar a obesidade severa e suas comorbidades, como diabetes tipo 2, hipertensão e doenças cardiovasculares. No entanto, seus impactos vão além do corpo, envolvendo transformações psicológicas significativas que precisam ser compreendidas e manejadas adequadamente.',
       dataPostagem: '28 de Dezembro de 2024'
     },
     {
@@ -47,6 +47,20 @@ export class SessaoTodosArtigosComponent {
       tituloArtigo: 'Medo de Dirigir (Amaxofobia)',
       descricaoArtigo: 'A Psicologia do Trânsito desempenha um papel fundamental na promoção da segurança e do bem-estar dos motoristas. Além de tratar questões como amaxofobia, ela também aborda comportamentos agressivos, distrações ao volante e outros fatores que impactam o trânsito.',
       dataPostagem: '28 de Dezembro de 2024'
+    },
+    {
+      id: 5,
+      imgArtigo: 'assets/images/artigos/rose-4795457_1280.jpg',
+      tituloArtigo: 'O Luto em Situações de Emergência: Como Apoiar em Perdas Traumáticas',
+      descricaoArtigo: 'Perder alguém querido é um dos desafios emocionais mais difíceis que podemos enfrentar. Quando essa perda ocorre de maneira súbita ou violenta, como em acidentes, desastres naturais ou atos de violência, o impacto psicológico pode ser ainda mais devastador.',
+      dataPostagem: '03 de Janeiro de 2025'
+    },
+    {
+      id: 6,
+      imgArtigo: 'assets/images/artigos/zumba-4333580_1280.jpg',
+      tituloArtigo: 'Saúde Mental em Foco: Os Principais Transtornos da Atualidade e Como Eles Impactam o Seu Dia a Dia',
+      descricaoArtigo: 'A saúde mental é um dos principais pilares do bem-estar humano, essencial para a qualidade de vida, relacionamentos interpessoais e produtividade.',
+      dataPostagem: '03 de Janeiro de 2025'
     },
   ]
 
