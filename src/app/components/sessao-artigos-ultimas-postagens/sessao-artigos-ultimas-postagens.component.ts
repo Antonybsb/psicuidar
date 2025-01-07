@@ -38,7 +38,7 @@ export class SessaoArtigosUltimasPostagensComponent {
       id: 3,
       imgArtigo: 'assets/images/artigos/belly-2354_1280.jpg',
       tituloArtigo: 'Cirurgia Bariátrica e Saúde Mental: Antes, Durante e Depois',
-      descricaoArtigo: 'A cirurgia bariátrica é uma das intervenções mais eficazes para tratar a obesidade severa e suas comorbidades, como diabetes tipo 2, hipertensão e doenças cardiovasculares. No entanto, seus impactos vão além do corpo, envolvendo transformações psicológicas significativas que precisam ser compreendidas e manejadas adequadamente.',
+      descricaoArtigo: 'A cirurgia bariátrica é uma das intervenções mais eficazes para tratar a obesidade severa e suas comorbidades, como diabetes tipo 2, hipertensão e doenças cardiovasculares.',
       dataPostagem: new Date()
     },
   ]
