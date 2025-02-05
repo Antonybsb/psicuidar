@@ -1,28 +1,38 @@
 # Psicuidar
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+# Este projeto foi gerado com o Angular CLI versão 17.3.11.
 
-## Development server
+![](img/print.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Índice
+1. [Descrição do Projeto](#descrição-do-projeto)
+2. [Motivação](#motivação)
+3. [Deploy](#deploy)
+4. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+5. [Conheça o projeto](#Conheça-o-projeto)
 
-## Code scaffolding
+## Descrição do Projeto
+A aplicação web foi desenvolvida para a Psicuidar com o objetivo de divulgar os serviços oferecidos e disponibilizar artigos escritos pelo psicólogo responsável. A plataforma foi construída utilizando tecnologias modernas, como HTML, CSS, TailwindCSS, JavaScript, Node.js, Angular e TypeScript, garantindo um desempenho ágil e uma experiência de usuário fluida e intuitiva.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A proposta central da aplicação é servir como um canal de comunicação entre a clínica e seus pacientes, oferecendo informações claras sobre os serviços disponíveis e compartilhando conhecimento por meio de artigos especializados. Com uma navegação simples e design responsivo, a plataforma proporciona uma experiência acessível e agradável para todos os usuários.
 
-## Build
+## Motivação
+Projeto desenvolvido com o intuito de aprimorar meus conhecimentos e me desenvolver na área da programação. Acredito que, ao investir tempo e esforço no estudo contínuo, poderei evoluir minhas habilidades técnicas e contribuir de forma significativa para projetos desafiadores e inovadores.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Deploy
+Para alternar entre GitHub Pages e Hostinger utilize o seguinte script no package.json
+"scripts": {
+  "build:github": "ng build --output-path=dist --base-href=\"/psicuidar/\"",
+  "build:hostinger": "ng build --output-path=dist --base-href=\"/\""
+}
 
-## Running unit tests
+Build para o GitHub Pages:
+Depois de realizar as alterações e comitar é necessário gerar um novo Build e fazer um Deploy para a plataforma do GitHub.
+Utilize o comando npm run build:github para gerar a atualizar a dist.
+Em seguida utilize o comando ngh --dir=dist/browser para fazer o deploy para o GitHub. (esse atalho resolve o erro do github não encontrar os arquivos da pasta dist.)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Tecnologias Utilizadas 
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /> 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# psicuidar
+## <a href="https://psicuidar.com/" target="_blank">Conheça o projeto</a>
