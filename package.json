@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path=dist --base-href=\"/psicuidar/\"",
+    "build:github": "ng build --output-path=dist --base-href=\"/psicuidar/\"",
+    "build:hostinger": "ng build --output-path=dist --base-href=\"/\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
