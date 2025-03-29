@@ -21,7 +21,7 @@ export class SessaoArtigosUltimasPostagensComponent {
 
   artigosUltimosPosts: Artigos[] = [
     {
-      id: 1,
+      id: 7,
       imgArtigo: 'assets/images/artigos/bible-6948549_1280.jpg',
       tituloArtigo: 'Saúde emocional do Líder Cristão: Ser um líder cristão é uma missão que carrega um peso único.',
       descricaoArtigo: 'Ser um líder cristão é uma missão que carrega um peso único. Pastores, presbíteros, missionários e outros líderes eclesiásticos são frequentemente vistos como pilares de força, guias espirituais e exemplos de resiliência. No entanto, por trás do púlpito ou da liderança comunitária, muitos enfrentam uma batalha silenciosa contra o adoecimento emocional e mental.',
