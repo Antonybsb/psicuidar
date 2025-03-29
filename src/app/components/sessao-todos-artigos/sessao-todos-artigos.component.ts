@@ -62,6 +62,13 @@ export class SessaoTodosArtigosComponent {
       descricaoArtigo: 'A saúde mental é um dos principais pilares do bem-estar humano, essencial para a qualidade de vida, relacionamentos interpessoais e produtividade.',
       dataPostagem: '03 de Janeiro de 2025'
     },
+    {
+      id: 7,
+      imgArtigo: 'assets/images/artigos/bible-6948549_1280.jpg',
+      tituloArtigo: 'Saúde emocional do Líder Cristão:',
+      descricaoArtigo: 'Ser um líder cristão é uma missão que carrega um peso único. Pastores, presbíteros, missionários e outros líderes eclesiásticos são frequentemente vistos como pilares de força, guias espirituais e exemplos de resiliência.',
+      dataPostagem: '03 de Janeiro de 2025'
+    },
   ]
 
   formatDate(date: Date): string {
