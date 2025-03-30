@@ -20,7 +20,9 @@ A proposta central da aplicação é servir como um canal de comunicação entre
 Projeto desenvolvido com o intuito de aprimorar meus conhecimentos e me desenvolver na área da programação. Acredito que, ao investir tempo e esforço no estudo contínuo, poderei evoluir minhas habilidades técnicas e contribuir de forma significativa para projetos desafiadores e inovadores.
 
 ## Deploy
-Para alternar entre GitHub Pages e Hostinger utilize o seguinte script no package.json
+Como Alternar Entre GitHub Pages e Hostinger
+Configuração no package.json
+Adicione estes scripts ao seu package.json para facilitar os builds:
 "scripts": {
   "build:github": "ng build --output-path=dist --base-href=\"/psicuidar/\"",
   "build:hostinger": "ng build --output-path=dist --base-href=\"/\""
@@ -28,8 +30,24 @@ Para alternar entre GitHub Pages e Hostinger utilize o seguinte script no packag
 
 Build para o GitHub Pages:
 Depois de realizar as alterações e comitar é necessário gerar um novo Build e fazer um Deploy para a plataforma do GitHub.
-Utilize o comando npm run build:github para gerar a atualizar a dist.
-Em seguida utilize o comando ngh --dir=dist/browser para fazer o deploy para o GitHub. (esse atalho resolve o erro do github não encontrar os arquivos da pasta dist.)
+Gere o build com o comando:
+npm run build:github
+Em seguida faça o deploy usando:
+ngh --dir=dist/browser
+Observação: O comando ngh resolve o erro comum do GitHub Pages de não encontrar os arquivos na pasta `dist*.
+
+Build para Hostinger
+Gere o build com:
+npm run build:hostinger
+Envie os arquivos:
+Copie todo o conteúdo da pasta dist para o diretório raiz (ex.: public_html) do seu servidor na Hostinger.
+
+Dicas Importantes
+GitHub Pages: O base-href deve apontar para o nome do repositório (/psicuidar/).
+
+Hostinger: Use base-href="/" para o domínio raiz.
+
+Sempre verifique se os arquivos da pasta dist estão atualizados antes do deploy.
 
 
 ## Tecnologias Utilizadas 
